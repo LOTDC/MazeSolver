@@ -45,6 +45,22 @@ This Java program, named `MSolver`, is designed to solve maze problems and find 
 2. `print(Stack a)`: Organizes and prints reachable paths in order of size.
 3. `main(String[] args)`: The main method to execute the program.
 
+#### Map
+Example:maze1.txt
+
++--+--+--+--+--+
+| a | a | a | a | a | a | a | a | a | a | a | a | a | E |
+| + | b | + | c | + | + | - | - | + | - | - | - | + | - |
+| | | d | + | + | - | - | + | - | - | - | - | + | - |
++ e + + | + | - | - | + | - | - | - | + | - | - | - |
+| f | g | f | g | - | + | - | - | + | - | - | - | - |
++ - | + | h | - | + | - | + | - | - | + | - | - | - |
+| a | + | d | + | | d | + | b | c | E |
++ a | + | e | + | | E | - | + | d | + | a | + |
+| a | b | c | d | a | b | c | d | s | a | d | s | d | a |
++ - | - | - | - | + | - | - | - | + | - | - | - | - |
+
+
 ## Usage
 
 1. Run the program.
