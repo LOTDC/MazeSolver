@@ -69,12 +69,15 @@ Example:maze1.txt
 2. Enter the filename of the maze text file when prompted.
 3. The program reads the maze, explores paths, and prints the reachable treasure paths.
 
-## Input File Format
+## Maze features are as follows:
 
-- The maze text file should consist of characters representing the maze structure.
-- The entrance is denoted by '1' and '0', and 'E' indicates the exit.
-- '|' and '-' represent walls, and '+' is used for corners.
-- The program ignores walls and corners during path exploration.
+-Walls are represented with “+”, “-“, and “|” characters. When you see one of these characters, you can not go any further.
+-Available paths are represented with lover case characters, when you see one of these characters, you can move forward.
+-Treasures are represented with capital “E” characters. When you see this character, this means that you can find a path successfully.
+-Avoid visiting already visited paths.
+-The maze has always an entrance at the beginning of the second row and it can contain more than one “E” character. For this case, you should try to find paths for all “E”, if it is possible, there may be some E that are not reachable.
+In the end, it should print all paths according to the increasing order of path lengths. You should read the maze file name from the console.
+
 
 ## Example
 
