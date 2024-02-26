@@ -71,12 +71,12 @@ Example:maze1.txt
 
 ## Maze features are as follows:
 
--Walls are represented with “+”, “-“, and “|” characters. When you see one of these characters, you can not go any further.
--Available paths are represented with lover case characters, when you see one of these characters, you can move forward.
--Treasures are represented with capital “E” characters. When you see this character, this means that you can find a path successfully.
--Avoid visiting already visited paths.
--The maze has always an entrance at the beginning of the second row and it can contain more than one “E” character. For this case, you should try to find paths for all “E”, if it is possible, there may be some E that are not reachable.
-In the end, it should print all paths according to the increasing order of path lengths. You should read the maze file name from the console.
+- Walls are represented with “+”, “-“, and “|” characters. When you see one of these characters, you can not go any further.
+- Available paths are represented with lover case characters, when you see one of these characters, you can move forward.
+- Treasures are represented with capital “E” characters. When you see this character, this means that you can find a path successfully.
+- Avoid visiting already visited paths.
+- The maze has always an entrance at the beginning of the second row and it can contain more than one “E” character. For this case, you should try to find paths for all “E”, if it is possible, there may be some E that are not reachable.
+- In the end, it should print all paths according to the increasing order of path lengths. You should read the maze file name from the console.
 
 
 ## Example
